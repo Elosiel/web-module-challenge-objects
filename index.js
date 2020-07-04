@@ -66,13 +66,13 @@ console.log(reviews[5]);
 
 const review = {name: "Elosiel", rating: 4, feedback:"Delicious food and incredible service.!"}
 
-console.log(review)
+
 
 
 /* Task 5: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays" */
 
 
-reviews.push ([8])
+
 
 
 
