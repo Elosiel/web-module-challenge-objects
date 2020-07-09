@@ -17,17 +17,18 @@ function createMenuItem(name, cost, category){
 console.log(pizza);
 
 
+
 /* Task 1b: use your function to create 3 more menu items. You may add any items to the menu that you'd like */
 
-const rodizio = {name: "rodizio", price: 40, category: "Dinner"};
-const pasta = {name: "pasta", price: 14, category: "lunch"};
-const cake = {name: "cake", price: 9, category: "BreakFast"};
+let rodizio = {name: "rodizio", price: 40, category: "Dinner"};
+let pasta = {name: "pasta", price: 14, category: "lunch"};
+let cake = {name: "cake", price: 9, category: "BreakFast"};
 function createMenuItem(name, cost, category){
    return rodizio, pasta, cake;
 }
 
 
-console.log(rodizio, pasta, cake)
+console.log(rodizio, pasta, cake);
 
 
 
@@ -58,7 +59,7 @@ const reviews = [{name: "Daniela", rating: 5, feedback:"Beautiful atmosphere and
 
 /* Task 3: Console.log just Julius' feedback */
 
-console.log(reviews[5]);
+console.log(reviews[5].feedback);
 
 /* Task 4: Add a new rating with your (fictitious) opinions of the restaurant in the same format as the reviews above. */
 
@@ -66,11 +67,15 @@ console.log(reviews[5]);
 
 const review = {name: "Elosiel", rating: 4, feedback:"Delicious food and incredible service.!"}
 
+console.log(reviews);
 
 
 
 /* Task 5: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays" */
 
+reviews[7].feedback = "this place is chill with really cool people, great for getting work done on weekdays";
+
+console.log(reviews[7].feedback);
 
 
 
