@@ -4,13 +4,32 @@ const latte = {name: "Cafe Latte", price: 4, category: "Drinks"};
 const burger = {name: "Burger", price: 18, category: "Lunch"};
 const breakfastBurrito = {name: "Breakfast Burrito", price: 16, category:"Breakfast"};
 
+console.log(latte, burger, breakfastBurrito)
+
+
 /* Task 1a: write a function to return more menu items with the same format as the items above. */
 
+
+const pizza = {name: "pizza", price: 25, category: "Lunch"};
 function createMenuItem(name, cost, category){
-    /* Code here */
+    return pizza
 }
+console.log(pizza);
+
+
 
 /* Task 1b: use your function to create 3 more menu items. You may add any items to the menu that you'd like */
+
+let rodizio = {name: "rodizio", price: 40, category: "Dinner"};
+let pasta = {name: "pasta", price: 14, category: "lunch"};
+let cake = {name: "cake", price: 9, category: "BreakFast"};
+function createMenuItem(name, cost, category){
+   return rodizio, pasta, cake;
+}
+
+
+console.log(rodizio, pasta, cake);
+
 
 
 
@@ -40,11 +59,27 @@ const reviews = [{name: "Daniela", rating: 5, feedback:"Beautiful atmosphere and
 
 /* Task 3: Console.log just Julius' feedback */
 
+console.log(reviews[5].feedback);
 
 /* Task 4: Add a new rating with your (fictitious) opinions of the restaurant in the same format as the reviews above. */
 
+// I couldn't get it to work with .push
 
-/* Task 5: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"
+const review = {name: "Elosiel", rating: 4, feedback:"Delicious food and incredible service.!"}
+
+console.log(reviews);
+
+
+
+/* Task 5: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays" */
+
+reviews[7].feedback = "this place is chill with really cool people, great for getting work done on weekdays";
+
+console.log(reviews[7].feedback);
+
+
+
+
 
 /*  Task 6: Write a function to return a review based on the index of the review in the array.
 
@@ -75,6 +110,12 @@ For example, if getLastReview is invoked passing the reviews array it will retur
 function getLastReview(/* code here */) {
     /* code here */
   } 
+
+
+
+
+
+
 
 
 ///////////////🍔☕️🍽 STRETCH🍔☕️🍽////////////////////
